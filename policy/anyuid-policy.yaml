@@ -69,17 +69,3 @@ spec:
           remediationAction: enforce
           severity: high
   remediationAction: enforce
----
-apiVersion: policy.open-cluster-management.io/v1
-kind: PlacementBinding
-metadata:
-  name: book-import-scc
-  namespace: book-import
-placementRef:
-  name: book-import-placement-1
-  kind: PlacementRule
-  apiGroup: apps.open-cluster-management.io
-subjects:
-- name: policygroup-book-import
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
