@@ -76,7 +76,7 @@ metadata:
   name: book-import-scc
   namespace: book-import
 placementRef:
-  name: book-import-placement-0
+  name: book-import-placement-1
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
