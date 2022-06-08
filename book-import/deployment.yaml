@@ -20,3 +20,10 @@ spec:
         ports:
         - containerPort: 1313
           name: http-server
+        resources:
+          limits:
+            cpu: 150m
+            memory: 100Mi
+          requests:
+            cpu: 10m
+            memory: 100Mi
